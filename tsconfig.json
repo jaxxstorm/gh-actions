@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "outDir": "dist",
+    "pretty": true,
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "stripInternal": true,
+    "target": "es2017"
+  },
+  "exclude": [
+    "node_modules",
+    "example"
+  ],
+  "include": [
+    "src"
+  ]
+}
