@@ -1,6 +1,6 @@
-import { OnClass } from './on';
-import { Defaults } from './defaults';
-import { Job } from './job';
+import {OnClass} from './on'
+import {Defaults} from './defaults'
+import {Job} from './job'
 
 export enum Event {
   CheckRun = 'check_run',
@@ -29,25 +29,34 @@ export enum Event {
   Release = 'release',
   RepositoryDispatch = 'repository_dispatch',
   Status = 'status',
-  Watch = 'watch',
+  Watch = 'watch'
 }
 
 export class GithubWorkflow {
-  name: string;
-  jobs?: Job[] | Job;
-  on: Event[] | OnClass | Event;
-  env?: { [key: string]: boolean | number | string };
-  defaults?: Defaults;
+  name: string
+  jobs: {[k: string]: Job}
+  on: Event[] | OnClass | Event
+  env?: {[key: string]: boolean | number | string}
+  defaults?: Defaults
 
-  constructor(name: string, params?: Partial<GithubWorkflow>) {
-    Object.assign(this, { name }, params);
-  }
-}
-
-export class PulumiGithubWorkflow extends GithubWorkflow {
   constructor(
     name: string,
+    jobs: {[k: string]: Job},
+    on: Event[] | OnClass | Event,
+    params?: Partial<GithubWorkflow>
   ) {
-    super(name);
+    Object.assign(this, {name}, {jobs}, {on}, params)
   }
 }
+
+/*
+export class PulumiGithubWorkflow extends GithubWorkflow {
+  constructor(name: string) {
+    super(name, {
+      foo: {
+        name: 'something',
+      }
+    });
+  }
+}
+*/

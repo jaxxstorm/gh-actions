@@ -1,3 +1,3 @@
 export interface ScheduleClass {
-  cron?: string;
+  cron?: string
 }
