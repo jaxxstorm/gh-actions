@@ -29,7 +29,9 @@
     "pulumi"
   ],
   "license": "Apache-2.0",
-  "module": "workflow.js",
+  "main": "dist/workflow.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/workflow.js",
   "name": "@jaxxstorm/gh-actions",
   "repository": {
     "type": "git",
