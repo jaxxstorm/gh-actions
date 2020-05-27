@@ -9,7 +9,7 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": false,
     "noImplicitReturns": true,
-    "outDir": "dist",
+    "outDir": "lib",
     "pretty": true,
     "sourceMap": false,
     "strictNullChecks": true,
