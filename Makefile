@@ -6,7 +6,6 @@ all: dist
 
 dist:
 	npx tsc
-	cp README.md LICENSE package.json dist
 
 clean:
 	rm -rf @jaxxstorm

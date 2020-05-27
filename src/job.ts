@@ -15,4 +15,11 @@ export class Job {
   defaults?: Defaults
   container?: string
   steps: Step[] | Step
+
+  addStep(step): Step[] | Step {
+    if (!(this.steps instanceof Step)) {
+      this.steps.push(new step)
+    }
+    return this.steps
+  }
 }
