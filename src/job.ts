@@ -16,7 +16,8 @@ export class Job {
   container?: string
   steps: Step[] | Step
 
-  addStep(step): Step[] | Step {
+  // eslint-disable-next-line @typescript-eslint/explicit-member-accessibility
+  public addStep(step): Step[] | Step {
     if (!(this.steps instanceof Step)) {
       this.steps.push(new step)
     }
