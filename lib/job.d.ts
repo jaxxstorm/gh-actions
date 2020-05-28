@@ -13,4 +13,5 @@ export declare class Job {
     defaults?: Defaults;
     container?: string;
     steps: Step[] | Step;
+    'runs-on': string;
 }
