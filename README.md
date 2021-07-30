@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>gh-actions</h2>
+  <img src="./.github/header.svg" alt="gha-builder" />
   
   A configuration generator for Github Actions
 
