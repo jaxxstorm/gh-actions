@@ -1,5 +1,5 @@
 {
-  "name": "gha-builder",
+  "name": "gha-workflow",
   "version": "0.1.0",
   "description": "Generate Github Actions configuration with Typescript",
   "keywords": [
