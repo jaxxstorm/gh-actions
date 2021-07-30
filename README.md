@@ -33,6 +33,8 @@ or
 yarn add jaxxstorm/gh-actions#develop
 ```
 
+[#7]: https://github.com/jaxxstorm/gh-actions/issues/7
+
 ## Documentation
 
 Apart from this README, you can find examples of using the library in the
