@@ -38,4 +38,4 @@ yarn add jaxxstorm/gh-actions#develop
 Apart from this README, you can find examples of using the library in the
 following places:
 
-- [example][./example]
+- [example](./example)
