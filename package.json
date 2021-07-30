@@ -1,5 +1,5 @@
 {
-  "name": "@jaxxstorm/gh-actions",
+  "name": "gha-builder",
   "version": "0.1.0",
   "description": "Generate Github Actions configuration with Typescript",
   "keywords": [
