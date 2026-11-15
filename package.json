@@ -22,6 +22,7 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "test": "node test/dependency-security.js",
     "format": "prettier --write **/*.ts",
     "format-check": "prettier --check **/*.ts",
     "lint": "eslint **/*.ts"
